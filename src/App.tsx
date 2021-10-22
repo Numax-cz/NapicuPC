@@ -330,8 +330,8 @@ function App() {
                 <h1 className="is-size-1 title">Další fotky počítače</h1>
               </div>
             </div>
-            <div className="imgSetupBottom ml-auto mr-auto">
-              <img src="/pcxd.webp" alt="Fotka počítače" />
+            <div className="columns is-desktop is-vcentered is-justify-content-space-around">
+              <img src="/pcxd.webp" className="imgSetupBottom" alt="Fotka počítače" />
             </div>
           </div>
         </section>
