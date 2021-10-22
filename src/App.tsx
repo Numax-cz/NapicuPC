@@ -240,7 +240,7 @@ function App() {
                   </p>
                 </div>
                 <div className="column">
-                  <img src="/ram.webp" className="imgSetup" alt="Operační paměťi" />
+                  <img src="/ram.webp" className="imgSetup" alt="Operační paměti" />
                 </div>
               </div>
             </section>
@@ -336,6 +336,23 @@ function App() {
           </div>
         </section>
       </div>
+
+      <footer className="footer">
+        <div className="content has-text-centered">
+          <div>
+            <h2>Created by Numax with ❤️ </h2>
+          </div>
+          <div>
+            The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php"> MIT</a>
+          </div>
+          <div>
+            <a href="https://github.com/Numax-cz/NapicuPC" target="_blank" rel="noreferrer">
+              <img src="/github.png" className="gitImg mt-2" alt="Github" />
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
