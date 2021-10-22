@@ -27,7 +27,7 @@ function App() {
                     <tbody>
                       <tr>
                         <th>Skříň</th>
-                        <td>Lenovo ThinkCenter - Přesný moden neznámý</td>
+                        <td>Lenovo ThinkCenter - Přesný model neznámý</td>
                       </tr>
                       <tr>
                         <th>Základní deska</th>
@@ -187,8 +187,8 @@ function App() {
                   <p>
                     Jako srdcem tohoto počítače je 6 jádrový a 6 vláknový procesor, který dosahuje 3.98GHz na
                     všech jader s TDP 65W. Procesor jsem zakoupil z důvodu nedostatku výkonu Pentia G-5400 s 2
-                    jádry a 4 vlákny na taktu 3.7GHz, takže mi zvládá vše co na svou práci a zábavu potřebuji,
-                    jak programování, nenáročné hry tak i virtualizaci.
+                    jádry a 4 vlákny na taktu 3.7GHz. Takže mi tento procesor zvládá vše co na svou práci a
+                    zábavu potřebuji, jak programování, nenáročné hry tak i virtualizaci.
                   </p>
                 </div>
               </div>
@@ -198,11 +198,11 @@ function App() {
               <div className="columns">
                 <div className="column is-size-5">
                   <p>
-                    Z důvodu malé počítačové skříně a nízkých financí, jsem musel šáhhnout po Micro-ATX
-                    deskách s chipsetem H310. Protože do skříně nemohu dát více jak 1 HDD, nezajímal mě ani
-                    počet sata konektorů. Jako základní desku jsem si tedy vybral ASUS PRIME H310M-R R2.0
+                    Z důvodu malé počítačové skříně a nízkých financí, jsem musel šáhnout po Micro-ATX deskách
+                    s chipsetem H310. Jelikož je má skříň malá a nemohu do ní dát více jak 1 HDD, nezajímal mě
+                    ani počet sata konektorů. Jako základní desku jsem si tedy vybral ASUS PRIME H310M-R R2.0
                     která má socket 1151. <br /> Deska obsahuje 4x SATA 6Gb/s, 4x USB 3.1 Gen1, 6x USB 2.0 (2x
-                    na zadním panelu, 4x na desce)
+                    na zadním panelu, 4x na desce).
                   </p>
                 </div>
                 <div className="column">
@@ -220,9 +220,9 @@ function App() {
                   <p>
                     Tento 120 mm chladič jsem zakoupil po pár týdnech používaní boxovaného chlazení dodávané k
                     i5-9400F. Boxované chladiče dodávané k Intel procesorům jsou hlučné a né moc výkonné,
-                    musel jsem tedy koupil nový chladič, Fera 5 se mi líbila jak vzhledově, výkonně tak i
+                    musel jsem tedy koupit nový. Chladič Fera 5 se mi líbila jak vzhledově, výkonově tak i
                     cenově, takže jsem neváhal a koupil! Při testovaní v Cinebenchu jsem se dostal na
-                    maximální teploty 60 °C s téměř nulovým hlukem
+                    maximální teploty 60 °C s téměř nulovým hlukem.
                   </p>
                 </div>
               </div>
@@ -234,8 +234,9 @@ function App() {
                 <div className="column is-size-5">
                   <p>
                     Původně jsem si do sestavy kupoval jenom 1x 8GB 2400MHz operační paměti, a to v černém
-                    provedení. Postupem času mi ale operační paměť přestala stačit, proto jsem si koupil
-                    další, jelikož ale operační paměť nebyla v černé verzi koupil jsem si v bílé verzi
+                    provedení. Postupem času mi operační paměť přestávala stačit, proto jsem se rozhodl
+                    dokoupit další operační paměť, jelikož ale operační paměť nebyla v černé verzi, koupil
+                    jsem tedi v verzi bílé.
                   </p>
                 </div>
                 <div className="column">
@@ -253,7 +254,7 @@ function App() {
                 <div className="column is-size-5">
                   <p>
                     Na počítači si občas zahraji nějakou tu hru, ale jelikož nehraji ty nejnovější žánry,
-                    proto tato GT 710 1GB mi dodá dostatečný výkon na hraní
+                    nepotřebuji výkonné dělo a proto mi tato GT 710 1GB dodává dostatečný výkon na hraní.
                   </p>
                 </div>
               </div>
@@ -265,8 +266,8 @@ function App() {
                 <div className="column is-size-5">
                   <p>
                     V počítači jsem dlouhou dobu měl 60GB SSD, které nebylo nejrychlejší. Z důvodu nízké
-                    kapacity jsem si koupil tohle 250GB SSD. Na tomto disku mám čistě operační systém, proto
-                    mě jeho kapacita dostačuje
+                    kapacity jsem SSD vyměnil za Samsung 860 EVO 250GB SSD. Na tomto disku mám čistě operační
+                    systém, proto mi jeho kapacita plně dostačuje.
                   </p>
                 </div>
                 <div className="column">
@@ -284,7 +285,7 @@ function App() {
                 <div className="column is-size-5">
                   <p>
                     Pro ukládání her a dokumentů mi dostačuje tento 500GB HDD. Tento disk je starý, trochu i
-                    hlučný, ale rychlostí určitě neomrzí. Disk má již naběháno něco málo přes 10 000 hodin
+                    hlučný, ale rychlostí určitě neomrzí. Tento disk má naběháno něco málo přes 10 000 hodin.
                   </p>
                 </div>
               </div>
@@ -295,7 +296,7 @@ function App() {
               <div className="columns">
                 <div className="column is-size-5">
                   <p>
-                    Zdroj jsem zakoupil společně s i5-9400F, z důvodu nejistoty kvality předešlého zdroje, ze
+                    Tento zdroj zakoupil společně s i5-9400F, z důvodu nejistoty kvality předešlého zdroje, ze
                     kterého jsem ani nevyčetl jeho výkon. Tento 550W zdroj s certifikací 80Plus Bronze bude
                     bohatě dostačovat i na budoucí upgrady.
                   </p>
