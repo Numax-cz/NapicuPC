@@ -8,3 +8,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.imgSetup{
+  width: 400px;
+}
+.imgSetupBottom{
+  width: 800px;
+}
