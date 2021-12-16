@@ -185,9 +185,9 @@ function App() {
                 </div>
                 <div className="column is-size-5">
                   <p>
-                    Jako srdcem tohoto počítače je 6 jádrový a 6 vláknový procesor, který dosahuje 3.98GHz na
-                    všech jader s TDP 65W. Procesor jsem zakoupil z důvodu nedostatku výkonu Pentia G-5400 s 2
-                    jádry a 4 vlákny na taktu 3.7GHz. Takže mi tento procesor zvládá vše co na svou práci a
+                    Jako srdcem tohoto počítače je 6 jádrový, 6 vláknový a 65W procesor, který dosahuje
+                    3.98GHz na všech jader. Procesor jsem zakoupil z důvodu nedostatku výkonu Pentia G-5400 s
+                    2 jádry a 4 vlákny na taktu 3.7GHz. Takže mi tento procesor zvládá vše co na svou práci a
                     zábavu potřebuji, jak programování, nenáročné hry tak i virtualizaci.
                   </p>
                 </div>
@@ -236,7 +236,7 @@ function App() {
                     Původně jsem si do sestavy kupoval jenom 1x 8GB 2400MHz operační paměti, a to v černém
                     provedení. Postupem času mi operační paměť přestávala stačit, proto jsem se rozhodl
                     dokoupit další operační paměť, jelikož ale operační paměť nebyla v černé verzi, koupil
-                    jsem tedi v verzi bílé.
+                    jsem tedy v verzi bílé.
                   </p>
                 </div>
                 <div className="column">
