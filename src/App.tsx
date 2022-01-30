@@ -129,11 +129,11 @@ function App() {
                         <th>Disk2</th>
                         <td>
                           <a
-                            href="https://www.czc.cz/samsung-spinpoint-f1-hd502ij-500gb/54322/produkt"
+                            href="https://www.czc.cz/seagate-ironwolf-3-5-1tb/200401/produkt"
                             target="_blank"
                             rel="noreferrer"
                           >
-                            Samsung HD502IJ 500GB
+                            Seagate IronWolf 1TB
                           </a>
                         </td>
                       </tr>
@@ -277,15 +277,15 @@ function App() {
             </section>
 
             <section className="section">
-              <h1 className="is-size-2 title">Samsung HD502IJ 500GB</h1>
+              <h1 className="is-size-2 title">Seagate IronWolf 1TB</h1>
               <div className="columns">
                 <div className="column">
-                  <img src="/hdd.webp" className="imgSetup" alt="HDD Samsung HD502IJ 500GB" />
+                  <img src="/hddns.webp" className="imgSetup" alt="HDD Samsung HD502IJ 500GB" />
                 </div>
                 <div className="column is-size-5">
                   <p>
-                    Pro ukládání her a dokumentů mi dostačuje tento 500GB HDD. Tento disk je starý, trochu i
-                    hlučný, ale rychlostí určitě neomrzí. Tento disk má naběháno něco málo přes 10 000 hodin.
+                    Pro ukládání her a dokumentů mi dostačuje tento 1TB. Tento disk je určený primárně pro NAS
+                    server, já ho však provozuji ve svém stolním počítači.
                   </p>
                 </div>
               </div>
@@ -334,7 +334,10 @@ function App() {
               <img src="/pcxd.webp" className="imgSetupBottom" alt="Fotka počítače" />
             </div>
             <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
-              <img src="/setupfull.webp" className="imgSetupBottom" alt="Fotka celého setupu" />
+              <img src="/setup2.webp" className="imgSetupBottom" alt="Fotka celého setupu" />
+            </div>
+            <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
+              <img src="/setup1.webp" className="imgSetupBottom" alt="Fotka celého setupu" />
             </div>
           </div>
         </section>
