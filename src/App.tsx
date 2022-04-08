@@ -6,7 +6,6 @@ function App() {
           <p className="title has-text-centered is-size-1">NapicuPC Numax's PC Setup</p>
         </div>
       </section>
-
       <div className="container">
         <section className="section">
           <div>
@@ -19,7 +18,6 @@ function App() {
                 </p>
               </div>
             </div>
-
             <section className="section">
               <div className="columns">
                 <div className="column">
@@ -57,11 +55,11 @@ function App() {
                         <th>GPU</th>
                         <td>
                           <a
-                            href="https://www.czc.cz/msi-geforce-gt-710-1gb/184691/produkt"
+                            href="https://www.czc.cz/asus-geforce-tuf-gtx1650-4gd6-gaming-4gb-gddr6/340719/produkt"
                             target="_blank"
                             rel="noreferrer"
                           >
-                            GeForce GT 710 1GB
+                            ASUS TUF GeForce GTX 1650 4GD6
                           </a>
                         </td>
                       </tr>
@@ -146,6 +144,54 @@ function App() {
                             rel="noreferrer"
                           >
                             2x Arctic F9 PWM PST Black, 92mm
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Monitor</th>
+                        <td>
+                          <a
+                            href="https://www.czc.cz/samsung-s24r650-led-monitor-24/283330/produkt"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            2x Samsung S24R650 - 24"
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Držák pro monitory</th>
+                        <td>
+                          <a
+                            href="https://www.alza.cz/alzaergo-ergoarm-d35b-d5626008.htm"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            AlzaErgo Arm D35B
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Klávesnice</th>
+                        <td>
+                          <a
+                            href="https://www.czc.cz/hyperx-alloy-fps-pro-cherry-mx-blue-us/234044/produkt"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            HyperX Alloy FPS Pro, Cherry MX Blue
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Myš</th>
+                        <td>
+                          <a
+                            href="https://www.czc.cz/glorious-model-o-cerna/267565/produkt"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Glorious Model O-
                           </a>
                         </td>
                       </tr>
@@ -246,15 +292,15 @@ function App() {
             </section>
 
             <section className="section">
-              <h1 className="is-size-2 title">MSI GT 710, 1GB</h1>
+              <h1 className="is-size-2 title">ASUS TUF GeForce GTX 1650 4GD6</h1>
               <div className="columns">
                 <div className="column">
-                  <img src="/gpu.webp" className="imgSetup" alt="Grafická karta MSI GT 710, 1GB" />
+                  <img src="/gpugtx.webp" className="imgSetup" alt="Grafická karta MSI GT 710, 1GB" />
                 </div>
                 <div className="column is-size-5">
                   <p>
-                    Na počítači si občas zahraji nějakou tu hru, ale jelikož nehraji ty nejnovější žánry,
-                    nepotřebuji výkonné dělo a proto mi tato GT 710 1GB dodává dostatečný výkon na hraní.
+                    V počítači mi grafický výkon obstarává tato grafická karta GeForce GTX 1650. Grafická
+                    karta mi na občasné hraní bohatě stačí a nijak mě nebrzdí.
                   </p>
                 </div>
               </div>
@@ -330,8 +376,14 @@ function App() {
                 <h1 className="is-size-1 title">Další fotky počítače</h1>
               </div>
             </div>
-            <div className="columns is-desktop is-vcentered is-justify-content-space-around ">
-              <img src="/pcxd.webp" className="imgSetupBottom" alt="Fotka počítače" />
+            <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
+              <img src="/fullPc3.webp" className="imgSetupBottom" alt="Fotka počítače" />
+            </div>
+            <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
+              <img src="/fullPc1.webp" className="imgSetupBottom" alt="Fotka počítače" />
+            </div>
+            <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
+              <img src="/fullPc2.webp" className="imgSetupBottom" alt="Fotka počítače" />
             </div>
             <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
               <img src="/setup2.webp" className="imgSetupBottom" alt="Fotka celého setupu" />
