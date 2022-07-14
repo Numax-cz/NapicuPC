@@ -1,7 +1,9 @@
-# NapicuBios - BETA
+# NapicuPC
 
 - Vytvořeno v [React](https://reactjs.org/) :electron:
 - Použitý CSS Framework [Bulma](https://bulma.io/) 🖌️
+
+---
 
 ## Instalace
 
@@ -13,6 +15,8 @@
    ```sh
    npm install
    ```
+
+---
 
 ## Spuštění
 
