@@ -148,6 +148,18 @@ function App() {
                         </td>
                       </tr>
                       <tr>
+                        <th>Reproduktory</th>
+                        <td>
+                          <a
+                            href="https://reprosoustavy-reproduktory.heureka.cz/presonus-eris-e4_5"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Presonus Eris E4.5
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
                         <th>Monitor</th>
                         <td>
                           <a
@@ -386,10 +398,10 @@ function App() {
               <img src="/fullPc2.webp" className="imgSetupBottom" alt="Fotka počítače" />
             </div>
             <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
-              <img src="/setup2.webp" className="imgSetupBottom" alt="Fotka celého setupu" />
+              <img src="/setup2-new.webp" className="imgSetupBottom" alt="Fotka celého setupu" />
             </div>
             <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
-              <img src="/setup1.webp" className="imgSetupBottom" alt="Fotka celého setupu" />
+              <img src="/setup1-new.webp" className="imgSetupBottom" alt="Fotka celého setupu" />
             </div>
           </div>
         </section>
