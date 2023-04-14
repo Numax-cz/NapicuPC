@@ -7,9 +7,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
 
-
-
+.background{
+  background-color: #fd6a46 !important;
 }
 
 ::-webkit-scrollbar {
@@ -23,10 +24,10 @@ body {
   border: 6px solid transparent;
   background-clip: content-box;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background-color: #a8bbbf;
 }
-
 
 .imgSetup{
   width: 400px;

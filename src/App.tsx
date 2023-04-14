@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="App">
-      <section className="hero  is-small is-warning">
+      <section className="hero  is-small background">
         <div className="hero-body">
           <p className="title has-text-centered is-size-1">NapicuPC Numax's PC Setup</p>
         </div>
@@ -14,7 +14,7 @@ function App() {
                 <h1 className="is-size-1 title">Můj počítač</h1>
                 <p className="is-size-4">
                   Počítač mi slouží především na programování, úpravu fotek a videí, sledování videí a na
-                  nenáročné hraní Minecraftu
+                  nenáročné hraní Minecraftu.
                 </p>
               </div>
             </div>
@@ -25,7 +25,15 @@ function App() {
                     <tbody>
                       <tr>
                         <th>Skříň</th>
-                        <td>Lenovo ThinkCenter - Přesný model neznámý</td>
+                        <td>
+                          <a
+                              href="https://www.czc.cz/endorfy-ventum-200-solid-cerna/362206/produkt"
+                              target="_blank"
+                              rel="noreferrer"
+                          >
+                            Endorfy Ventum 200 Solid Black
+                          </a>
+                        </td>
                       </tr>
                       <tr>
                         <th>Základní deska</th>
@@ -127,6 +135,18 @@ function App() {
                         <th>Disk2</th>
                         <td>
                           <a
+                              href="https://www.czc.cz/crucial-bx500-2-5-480gb/244141/produkt"
+                              target="_blank"
+                              rel="noreferrer"
+                          >
+                            Crucial BX500 480GB
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Disk3</th>
+                        <td>
+                          <a
                             href="https://www.czc.cz/seagate-ironwolf-3-5-1tb/200401/produkt"
                             target="_blank"
                             rel="noreferrer"
@@ -135,18 +155,18 @@ function App() {
                           </a>
                         </td>
                       </tr>
-                      <tr>
-                        <th>Ventilátory</th>
-                        <td>
-                          <a
-                            href="https://www.czc.cz/arctic-f9-pwm-pst-black-92mm/312721/produkt"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            2x Arctic F9 PWM PST Black, 92mm
-                          </a>
-                        </td>
-                      </tr>
+                      {/*<tr>*/}
+                      {/*  <th>Ventilátory</th>*/}
+                      {/*  <td>*/}
+                      {/*    <a*/}
+                      {/*      href="https://www.czc.cz/arctic-f9-pwm-pst-black-92mm/312721/produkt"*/}
+                      {/*      target="_blank"*/}
+                      {/*      rel="noreferrer"*/}
+                      {/*    >*/}
+                      {/*      2x Arctic F9 PWM PST Black, 92mm*/}
+                      {/*    </a>*/}
+                      {/*  </td>*/}
+                      {/*</tr>*/}
                       <tr>
                         <th>Reproduktory</th>
                         <td>
@@ -208,6 +228,18 @@ function App() {
                         </td>
                       </tr>
                       <tr>
+                        <th>Stůl</th>
+                        <td>
+                          <a
+                              href="https://www.ikea.com/cz/cs/p/bekant-ram-pro-stolni-desku-cerna-30252906/"
+                              target="_blank"
+                              rel="noreferrer"
+                          >
+                            Bekant (Deska custom)
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
                         <th>Operační systém</th>
                         <td>
                           <a
@@ -223,7 +255,7 @@ function App() {
                   </table>
                 </div>
                 <div className="column">
-                  <img src="/pc.webp" className="imgSetup" alt="Počítačová skříň" />
+                  <img src="/setup/pc.webp" className="imgSetup" alt="Počítačová skříň" />
                 </div>
               </div>
             </section>
@@ -238,9 +270,6 @@ function App() {
             <section className="section">
               <h1 className="is-size-2 title">Intel Core i5-9400F</h1>
               <div className="columns">
-                <div className="column">
-                  <img src="/cpu.webp" className="imgSetup" alt="Procesor Intel Core i5-9400F" />
-                </div>
                 <div className="column is-size-5">
                   <p>
                     Jako srdcem tohoto počítače je 6 jádrový, 6 vláknový a 65W procesor, který dosahuje
@@ -249,30 +278,33 @@ function App() {
                     zábavu potřebuji, jak programování, nenáročné hry tak i virtualizaci.
                   </p>
                 </div>
-              </div>
-            </section>
-            <section className="section">
-              <h1 className="is-size-2 title">ASUS PRIME H310M-R R2.0</h1>
-              <div className="columns">
-                <div className="column is-size-5">
-                  <p>
-                    Z důvodu malé počítačové skříně a nízkých financí, jsem musel šáhnout po Micro-ATX deskách
-                    s chipsetem H310. Jelikož je má skříň malá a nemohu do ní dát více jak 1 HDD, nezajímal mě
-                    ani počet sata konektorů. Jako základní desku jsem si tedy vybral ASUS PRIME H310M-R R2.0
-                    která má socket 1151. <br /> Deska obsahuje 4x SATA 6Gb/s, 4x USB 3.1 Gen1, 6x USB 2.0 (2x
-                    na zadním panelu, 4x na desce).
-                  </p>
-                </div>
                 <div className="column">
-                  <img src="/deska.webp" className="imgSetup" alt="Základní deska ASUS PRIME H310M-R R2.0" />
+                  <img src="/setup/cpu.webp" className="imgSetup" alt="Procesor Intel Core i5-9400F" />
                 </div>
               </div>
             </section>
+            {/*<section className="section">*/}
+            {/*  <h1 className="is-size-2 title">ASUS PRIME H310M-R R2.0</h1>*/}
+            {/*  <div className="columns">*/}
+            {/*    <div className="column is-size-5">*/}
+            {/*      <p>*/}
+            {/*        Z důvodu malé počítačové skříně a nízkých financí, jsem musel šáhnout po Micro-ATX deskách*/}
+            {/*        s chipsetem H310. Jelikož je má skříň malá a nemohu do ní dát více jak 1 HDD, nezajímal mě*/}
+            {/*        ani počet sata konektorů. Jako základní desku jsem si tedy vybral ASUS PRIME H310M-R R2.0*/}
+            {/*        která má socket 1151. <br /> Deska obsahuje 4x SATA 6Gb/s, 4x USB 3.1 Gen1, 6x USB 2.0 (2x*/}
+            {/*        na zadním panelu, 4x na desce).*/}
+            {/*      </p>*/}
+            {/*    </div>*/}
+            {/*    <div className="column">*/}
+            {/*      <img src="/deska.webp" className="imgSetup" alt="Základní deska ASUS PRIME H310M-R R2.0" />*/}
+            {/*    </div>*/}
+            {/*  </div>*/}
+            {/*</section>*/}
             <section className="section">
               <h1 className="is-size-2 title">SilentiumPC Fera 5</h1>
               <div className="columns">
                 <div className="column">
-                  <img src="/cpu_fan.webp" className="imgSetup" alt="Chladič SilentiumPC Fera 5" />
+                  <img src="/setup/fera.webp" className="imgSetup" alt="Chladič SilentiumPC Fera 5" />
                 </div>
                 <div className="column is-size-5">
                   <p>
@@ -298,7 +330,7 @@ function App() {
                   </p>
                 </div>
                 <div className="column">
-                  <img src="/ram.webp" className="imgSetup" alt="Operační paměti" />
+                  <img src="/setup/ram.webp" className="imgSetup" alt="Operační paměti" />
                 </div>
               </div>
             </section>
@@ -307,7 +339,7 @@ function App() {
               <h1 className="is-size-2 title">ASUS TUF GeForce GTX 1650 4GD6</h1>
               <div className="columns">
                 <div className="column">
-                  <img src="/gpugtx.webp" className="imgSetup" alt="Grafická karta MSI GT 710, 1GB" />
+                  <img src="/setup/gpu.webp" className="imgSetup" alt="Grafická karta MSI GT 710, 1GB" />
                 </div>
                 <div className="column is-size-5">
                   <p>
@@ -329,7 +361,22 @@ function App() {
                   </p>
                 </div>
                 <div className="column">
-                  <img src="/ssd.webp" className="imgSetup" alt="SSD Samsung 860 EVO 250GB" />
+                  <img src="/setup/ssd1.webp" className="imgSetup" alt="SSD Samsung 860 EVO 250GB" />
+                </div>
+              </div>
+            </section>
+
+            <section className="section">
+              <h1 className="is-size-2 title">Crucial BX500 480GB</h1>
+              <div className="columns">
+                <div className="column">
+                  <img src="/setup/ssd2.webp" className="imgSetup" alt="SSD Samsung 860 EVO 250GB" />
+                </div>
+                <div className="column is-size-5">
+                  <p>
+                    V počítači také můžeme nalést další SSD disk Crucial BX500, který mi v počítači slouží k
+                    ukládání důležitých souborů a aplikací ke kterým potřebuji rychlý přístup.
+                  </p>
                 </div>
               </div>
             </section>
@@ -337,14 +384,14 @@ function App() {
             <section className="section">
               <h1 className="is-size-2 title">Seagate IronWolf 1TB</h1>
               <div className="columns">
-                <div className="column">
-                  <img src="/hddns.webp" className="imgSetup" alt="HDD Samsung HD502IJ 500GB" />
-                </div>
                 <div className="column is-size-5">
                   <p>
-                    Pro ukládání her a dokumentů mi dostačuje tento 1TB. Tento disk je určený primárně pro NAS
+                    Pro ukládání her a nedůležitých dokumentů mi dostačuje tento 1TB. Tento disk je určený primárně pro NAS
                     server, já ho však provozuji ve svém stolním počítači.
                   </p>
+                </div>
+                <div className="column">
+                  <img src="/setup/hddns.webp" className="imgSetup" alt="HDD Samsung HD502IJ 500GB" />
                 </div>
               </div>
             </section>
@@ -352,6 +399,9 @@ function App() {
             <section className="section">
               <h1 className="is-size-2 title">Corsair CV550 - 550W</h1>
               <div className="columns">
+                <div className="column">
+                  <img src="/setup/zdroj.webp" className="imgSetup" alt="Zdroj Corsair CV550 - 550W" />
+                </div>
                 <div className="column is-size-5">
                   <p>
                     Tento zdroj zakoupil společně s i5-9400F, z důvodu nejistoty kvality předešlého zdroje, ze
@@ -359,24 +409,20 @@ function App() {
                     bohatě dostačovat i na budoucí upgrady.
                   </p>
                 </div>
-                <div className="column">
-                  <img src="/zdroj.webp" className="imgSetup" alt="Zdroj Corsair CV550 - 550W" />
-                </div>
               </div>
             </section>
 
             <section className="section">
-              <h1 className="is-size-2 title">Arctic F9 PWM PST Black, 92mm</h1>
+              <h1 className="is-size-2 title">Endorfy Zephyr 120mm</h1>
               <div className="columns">
-                <div className="column">
-                  <img src="/fan.webp" className="imgSetup" alt="Ventilátory Arctic F9 PWM PST Black, 92mm" />
-                </div>
                 <div className="column is-size-5">
                   <p>
-                    Počítačová sestava musí mít taky nějaký průtok vzduchu. V počítači jsou tedy obsazeny 2
-                    ventilátory Arctic F9 92mm. Ventilátory jsem zakoupil v létě 2021 z důvodu hlučnosti
-                    předchozích větráků. Ventilátory Arctic F9 jsou tiché i výkonné
+                    Počítačová sestava musí mít taky nějaký průtok vzduchu. V počítači je tedy obsazen jeden
+                    ventilátor Endorfy Zephyr 120mm, který se stará o odvádění tepla ven ze skříně.
                   </p>
+                </div>
+                <div className="column">
+                  <img src="/setup/fan.webp" className="imgSetup" alt="Ventilátory Arctic F9 PWM PST Black, 92mm" />
                 </div>
               </div>
             </section>
@@ -389,13 +435,13 @@ function App() {
               </div>
             </div>
             <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
-              <img src="/fullPc3.webp" className="imgSetupBottom" alt="Fotka počítače" />
+              <img src="/setup/pc1.webp" className="imgSetupBottom" alt="Fotka počítače" />
             </div>
             <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
-              <img src="/fullPc1.webp" className="imgSetupBottom" alt="Fotka počítače" />
+              <img src="/setup/pc3.webp" className="imgSetupBottom" alt="Fotka počítače" />
             </div>
             <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
-              <img src="/fullPc2.webp" className="imgSetupBottom" alt="Fotka počítače" />
+              <img src="/setup/pc2.webp" className="imgSetupBottom" alt="Fotka počítače" />
             </div>
             <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
               <img src="/setup2-new.webp" className="imgSetupBottom" alt="Fotka celého setupu" />
