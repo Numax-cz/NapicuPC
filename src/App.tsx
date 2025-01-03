@@ -1,9 +1,9 @@
 function App() {
   return (
     <div className="App">
-      <section className="hero  is-small background">
+      <section className="hero is-small background">
         <div className="hero-body">
-          <p className="title has-text-centered is-size-1">NapicuPC Numax's PC Setup</p>
+          <p className="title has-text-centered is-size-1 has-text-white">NapicuPC Numax's PC Setup</p>
         </div>
       </section>
       <div className="container">
@@ -11,9 +11,9 @@ function App() {
           <div>
             <div className="container">
               <div className="content">
-                <h1 className="is-size-1 title">Můj počítač</h1>
-                <p className="is-size-4">
-                  Počítač mi slouží především na programování, úpravu fotek a videí, sledování videí a na
+                <h1 className="is-size-1 title has-text-white">Můj počítač</h1>
+                <p className="is-size-4 has-text-white">
+                  Počítač slouží především na programování, úpravu fotek a videí, sledování videí a na
                   nenáročné hraní Minecraftu.
                 </p>
               </div>
@@ -21,7 +21,7 @@ function App() {
             <section className="section">
               <div className="columns">
                 <div className="column">
-                  <table className="table is-bordered is-striped is-narrow is-hoverable">
+                  <table className="dark-table ">
                     <tbody>
                       <tr>
                         <th>Skříň</th>
@@ -264,13 +264,13 @@ function App() {
           <div className="mt-6">
             <div className="container">
               <div className="content">
-                <h1 className="is-size-1 title">Podrobnější vnitřek počítače</h1>
+                <h1 className="is-size-1 title has-text-white">Podrobnější vnitřek počítače</h1>
               </div>
             </div>
             <section className="section">
-              <h1 className="is-size-2 title">Intel Core i5-9400F</h1>
+              <h1 className="is-size-2 title has-text-white">Intel Core i5-9400F</h1>
               <div className="columns">
-                <div className="column is-size-5">
+                <div className="column is-size-5 has-text-white">
                   <p>
                     Jako srdcem tohoto počítače je 6 jádrový, 6 vláknový a 65W procesor, který dosahuje
                     3.98GHz na všech jader. Procesor jsem zakoupil z důvodu nedostatku výkonu Pentia G-5400 s
@@ -301,12 +301,12 @@ function App() {
             {/*  </div>*/}
             {/*</section>*/}
             <section className="section">
-              <h1 className="is-size-2 title">SilentiumPC Fera 5</h1>
+              <h1 className="is-size-2 title has-text-white">SilentiumPC Fera 5</h1>
               <div className="columns">
                 <div className="column">
                   <img src="/setup/fera.webp" className="imgSetup" alt="Chladič SilentiumPC Fera 5" />
                 </div>
-                <div className="column is-size-5">
+                <div className="column is-size-5 has-text-white">
                   <p>
                     Tento 120 mm chladič jsem zakoupil po pár týdnech používaní boxovaného chlazení dodávané k
                     i5-9400F. Boxované chladiče dodávané k Intel procesorům jsou hlučné a né moc výkonné,
@@ -319,9 +319,9 @@ function App() {
             </section>
 
             <section className="section">
-              <h1 className="is-size-2 title">Operační paměť</h1>
+              <h1 className="is-size-2 title has-text-white">Operační paměť</h1>
               <div className="columns">
-                <div className="column is-size-5">
+                <div className="column is-size-5 has-text-white">
                   <p>
                     Původně jsem si do sestavy kupoval jenom 1x 8GB 2400MHz operační paměti, a to v černém
                     provedení. Postupem času mi operační paměť přestávala stačit, proto jsem se rozhodl
@@ -336,12 +336,12 @@ function App() {
             </section>
 
             <section className="section">
-              <h1 className="is-size-2 title">ASUS TUF GeForce GTX 1650 4GD6</h1>
+              <h1 className="is-size-2 title has-text-white">ASUS TUF GeForce GTX 1650 4GD6</h1>
               <div className="columns">
                 <div className="column">
                   <img src="/setup/gpu.webp" className="imgSetup" alt="Grafická karta MSI GT 710, 1GB" />
                 </div>
-                <div className="column is-size-5">
+                <div className="column is-size-5 has-text-white">
                   <p>
                     V počítači mi grafický výkon obstarává tato grafická karta GeForce GTX 1650. Grafická
                     karta mi na občasné hraní bohatě stačí a nijak mě nebrzdí.
@@ -351,9 +351,9 @@ function App() {
             </section>
 
             <section className="section">
-              <h1 className="is-size-2 title">Samsung 860 EVO 250GB</h1>
+              <h1 className="is-size-2 title has-text-white">Samsung 860 EVO 250GB</h1>
               <div className="columns">
-                <div className="column is-size-5">
+                <div className="column is-size-5 has-text-white">
                   <p>
                     V počítači jsem dlouhou dobu měl 60GB SSD, které nebylo nejrychlejší. Z důvodu nízké
                     kapacity jsem SSD vyměnil za Samsung 860 EVO 250GB SSD. Na tomto disku mám čistě operační
@@ -367,12 +367,12 @@ function App() {
             </section>
 
             <section className="section">
-              <h1 className="is-size-2 title">Crucial BX500 480GB</h1>
+              <h1 className="is-size-2 title has-text-white">Crucial BX500 480GB</h1>
               <div className="columns">
                 <div className="column">
                   <img src="/setup/ssd2.webp" className="imgSetup" alt="SSD Samsung 860 EVO 250GB" />
                 </div>
-                <div className="column is-size-5">
+                <div className="column is-size-5 has-text-white">
                   <p>
                     V počítači také můžeme nalést další SSD disk Crucial BX500, který mi v počítači slouží k
                     ukládání důležitých souborů a aplikací ke kterým potřebuji rychlý přístup.
@@ -382,9 +382,9 @@ function App() {
             </section>
 
             <section className="section">
-              <h1 className="is-size-2 title">Seagate IronWolf 1TB</h1>
+              <h1 className="is-size-2 title has-text-white">Seagate IronWolf 1TB</h1>
               <div className="columns">
-                <div className="column is-size-5">
+                <div className="column is-size-5 has-text-white">
                   <p>
                     Pro ukládání her a nedůležitých dokumentů mi dostačuje tento 1TB. Tento disk je určený primárně pro NAS
                     server, já ho však provozuji ve svém stolním počítači.
@@ -397,12 +397,12 @@ function App() {
             </section>
 
             <section className="section">
-              <h1 className="is-size-2 title">Corsair CV550 - 550W</h1>
+              <h1 className="is-size-2 title has-text-white">Corsair CV550 - 550W</h1>
               <div className="columns">
                 <div className="column">
                   <img src="/setup/zdroj.webp" className="imgSetup" alt="Zdroj Corsair CV550 - 550W" />
                 </div>
-                <div className="column is-size-5">
+                <div className="column is-size-5 has-text-white">
                   <p>
                     Tento zdroj zakoupil společně s i5-9400F, z důvodu nejistoty kvality předešlého zdroje, ze
                     kterého jsem ani nevyčetl jeho výkon. Tento 550W zdroj s certifikací 80Plus Bronze bude
@@ -413,9 +413,9 @@ function App() {
             </section>
 
             <section className="section">
-              <h1 className="is-size-2 title">Endorfy Zephyr 120mm</h1>
+              <h1 className="is-size-2 title has-text-white">Endorfy Zephyr 120mm</h1>
               <div className="columns">
-                <div className="column is-size-5">
+                <div className="column is-size-5 has-text-white">
                   <p>
                     Počítačová sestava musí mít taky nějaký průtok vzduchu. V počítači je tedy obsazen jeden
                     ventilátor Endorfy Zephyr 120mm, který se stará o odvádění tepla ven ze skříně.
@@ -431,7 +431,7 @@ function App() {
           <div className="mt-6">
             <div className="container">
               <div className="content">
-                <h1 className="is-size-1 title">Další fotky počítače</h1>
+                <h1 className="is-size-1 title has-text-white">Další fotky počítače</h1>
               </div>
             </div>
             <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
@@ -449,14 +449,15 @@ function App() {
             <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
               <img src="/setup1-new.webp" className="imgSetupBottom" alt="Fotka celého setupu" />
             </div>
+
           </div>
         </section>
       </div>
 
-      <footer className="footer">
-        <div className="content has-text-centered">
+      <footer className="footer background">
+        <div className="content has-text-centered has-text-white">
           <div>
-            <h2>Created by Numax with ❤️ </h2>
+            <h2 className="has-text-white">Created by Numax with ❤️ </h2>
           </div>
           <div>
             The source code is licensed
