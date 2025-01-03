@@ -435,21 +435,23 @@ function App() {
               </div>
             </div>
             <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
-              <img src="/setup/pc1.webp" className="imgSetupBottom" alt="Fotka počítače" />
+              <img src="/setup/pc1.webp" className="imgSetupBottom" alt="Fotka počítače"/>
             </div>
             <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
-              <img src="/setup/pc3.webp" className="imgSetupBottom" alt="Fotka počítače" />
+              <img src="/setup/pc3.webp" className="imgSetupBottom" alt="Fotka počítače"/>
             </div>
             <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
-              <img src="/setup/pc2.webp" className="imgSetupBottom" alt="Fotka počítače" />
+              <img src="/setup/pc2.webp" className="imgSetupBottom" alt="Fotka počítače"/>
             </div>
             <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
-              <img src="/setup2-new.webp" className="imgSetupBottom" alt="Fotka celého setupu" />
+              <img src="/setup2-new.webp" className="imgSetupBottom" alt="Fotka celého setupu"/>
             </div>
             <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
-              <img src="/setup1-new.webp" className="imgSetupBottom" alt="Fotka celého setupu" />
+              <img src="/setup1-new.webp" className="imgSetupBottom" alt="Fotka celého setupu"/>
             </div>
-
+            <div className="columns mt-5 is-desktop is-vcentered is-justify-content-space-around ">
+              <img src="/setup/pc_night.webp" className="imgSetupBottom" alt="Fotka celého setupu v noci"/>
+            </div>
           </div>
         </section>
       </div>
