@@ -27,7 +27,7 @@ function App() {
                         <th>Skříň</th>
                         <td>
                           <a
-                              href="https://www.czc.cz/endorfy-ventum-200-solid-cerna/362206/produkt"
+                              href="https://www.alza.cz/endorfy-ventum-200-solid-black-d7617311.htm"
                               target="_blank"
                               rel="noreferrer"
                           >
@@ -39,7 +39,7 @@ function App() {
                         <th>Základní deska</th>
                         <td>
                           <a
-                            href="https://www.czc.cz/asus-prime-h310m-r-r2-0-intel-h310/267438/produkt"
+                            href="https://www.alza.cz/asus-prime-h310m-r-r2-0-d5535927.htm"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -51,7 +51,7 @@ function App() {
                         <th>CPU</th>
                         <td>
                           <a
-                            href="https://www.czc.cz/intel-core-i5-9400f/252287/produkt"
+                            href="https://www.alza.cz/intel-core-i5-9400f-d5530456.htm"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -63,7 +63,7 @@ function App() {
                         <th>GPU</th>
                         <td>
                           <a
-                            href="https://www.czc.cz/asus-geforce-tuf-gtx1650-4gd6-gaming-4gb-gddr6/340719/produkt"
+                            href="https://www.alza.cz/asus-tuf-geforce-gtx-1650-4gd6-gaming-d6315145.htm"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -75,7 +75,7 @@ function App() {
                         <th>Zdroj</th>
                         <td>
                           <a
-                            href="https://www.czc.cz/corsair-cv-series-cv550-550w/278817/produkt"
+                            href="https://www.alza.cz/corsair-cv550-d5759762.htm"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -87,7 +87,7 @@ function App() {
                         <th>Chladič</th>
                         <td>
                           <a
-                            href="https://www.czc.cz/silentiumpc-fera-5/315340/produkt"
+                            href="https://www.alza.cz/endorfy-fera-5-d7617315.htm"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -99,7 +99,7 @@ function App() {
                         <th>RAM-1</th>
                         <td>
                           <a
-                            href="https://www.czc.cz/hyperx-fury-black-8gb-ddr4-2400/189362/produkt"
+                            href="https://www.alza.cz/hyperx-8gb-ddr4-2400mhz-cl15-fury-black-series-d4128817.htm"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -123,7 +123,7 @@ function App() {
                         <th>Disk1</th>
                         <td>
                           <a
-                            href="https://www.czc.cz/samsung-ssd-860-evo-2-5-250gb/229476/produkt"
+                            href="https://www.alza.cz/samsung-860-evo-250gb-d5258007.htm"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -135,11 +135,11 @@ function App() {
                         <th>Disk2</th>
                         <td>
                           <a
-                              href="https://www.czc.cz/crucial-bx500-2-5-480gb/244141/produkt"
+                              href="https://www.alza.cz/crucial-bx500-500gb-d7356759.htm"
                               target="_blank"
                               rel="noreferrer"
                           >
-                            Crucial BX500 480GB
+                            Crucial BX500 500GB
                           </a>
                         </td>
                       </tr>
@@ -147,11 +147,11 @@ function App() {
                         <th>Disk3</th>
                         <td>
                           <a
-                            href="https://www.czc.cz/seagate-ironwolf-3-5-1tb/200401/produkt"
+                            href="https://www.alza.cz/crucial-bx500-1tb-d5782027.htm"
                             target="_blank"
                             rel="noreferrer"
                           >
-                            Seagate IronWolf 1TB
+                            Crucial BX500 1TB
                           </a>
                         </td>
                       </tr>
@@ -183,7 +183,7 @@ function App() {
                         <th>Monitor</th>
                         <td>
                           <a
-                            href="https://www.czc.cz/samsung-s24r650-led-monitor-24/283330/produkt"
+                            href="https://www.alza.cz/24-samsung-s24r650-d5761114.htm"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -207,11 +207,11 @@ function App() {
                         <th>Klávesnice</th>
                         <td>
                           <a
-                            href="https://www.czc.cz/hyperx-alloy-fps-pro-cherry-mx-blue-us/234044/produkt"
+                            href="https://www.alza.cz/dark-project-kd83a-navy-blue-d12430612.htm"
                             target="_blank"
                             rel="noreferrer"
                           >
-                            HyperX Alloy FPS Pro, Cherry MX Blue
+                            Dark Project KD83A Navy Blue
                           </a>
                         </td>
                       </tr>
@@ -219,7 +219,7 @@ function App() {
                         <th>Myš</th>
                         <td>
                           <a
-                            href="https://www.czc.cz/glorious-model-o-cerna/267565/produkt"
+                            href="https://www.alza.cz/glorious-model-o-matte-black-d5698339.htm"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -308,7 +308,7 @@ function App() {
                 </div>
                 <div className="column is-size-5 has-text-white">
                   <p>
-                    Tento 120 mm chladič jsem zakoupil po pár týdnech používaní boxovaného chlazení dodávané k
+                    Tento 120 mm chladič byl zakoupen po pár týdnech používaní boxovaného chlazení dodávané k
                     i5-9400F. Boxované chladiče dodávané k Intel procesorům jsou hlučné a né moc výkonné,
                     musel jsem tedy koupit nový. Chladič Fera 5 se mi líbila jak vzhledově, výkonově tak i
                     cenově, takže jsem neváhal a koupil! Při testovaní v Cinebenchu jsem se dostal na
@@ -323,10 +323,9 @@ function App() {
               <div className="columns">
                 <div className="column is-size-5 has-text-white">
                   <p>
-                    Původně jsem si do sestavy kupoval jenom 1x 8GB 2400MHz operační paměti, a to v černém
-                    provedení. Postupem času mi operační paměť přestávala stačit, proto jsem se rozhodl
-                    dokoupit další operační paměť, jelikož ale operační paměť nebyla v černé verzi, koupil
-                    jsem tedy v verzi bílé.
+                    Původně jsem si do sestavy pořídil pouze 1x 8GB 2400MHz operační paměť v černé barvě.
+                    Postupem času mi kapacita paměti přestávala stačit, a tak jsem se rozhodl přikoupit další,
+                    přičemž vzhledem k nedostupnosti černé verze jsem zvolil variantu bílou.
                   </p>
                 </div>
                 <div className="column">
@@ -343,8 +342,7 @@ function App() {
                 </div>
                 <div className="column is-size-5 has-text-white">
                   <p>
-                    V počítači mi grafický výkon obstarává tato grafická karta GeForce GTX 1650. Grafická
-                    karta mi na občasné hraní bohatě stačí a nijak mě nebrzdí.
+                    Grafický výkon v počítači zajišťuje grafická karta GeForce GTX 1650, která mi na občasné hraní plně vyhovuje a nijak mě neomezuje
                   </p>
                 </div>
               </div>
@@ -355,9 +353,8 @@ function App() {
               <div className="columns">
                 <div className="column is-size-5 has-text-white">
                   <p>
-                    V počítači jsem dlouhou dobu měl 60GB SSD, které nebylo nejrychlejší. Z důvodu nízké
-                    kapacity jsem SSD vyměnil za Samsung 860 EVO 250GB SSD. Na tomto disku mám čistě operační
-                    systém, proto mi jeho kapacita plně dostačuje.
+                    V počítači jsem měl dlouho 60GB SSD, které nebylo příliš rychlé.
+                    Kvůli nízké kapacitě jsem ho vyměnil za Samsung 860 EVO 250GB, na kterém mám pouze operační systém, což mi plně vyhovuje
                   </p>
                 </div>
                 <div className="column">
@@ -374,27 +371,29 @@ function App() {
                 </div>
                 <div className="column is-size-5 has-text-white">
                   <p>
-                    V počítači také můžeme nalést další SSD disk Crucial BX500, který mi v počítači slouží k
-                    ukládání důležitých souborů a aplikací ke kterým potřebuji rychlý přístup.
+                    V počítači se nachází SSD disk Crucial BX500, který mi slouží k ukládání
+                    důležitých souborů a aplikací, k nimž potřebuji rychlý přístup.
+                    Dále je v systému přítomen identický model disku, avšak s vyšší kapacitou, čímž je
+                    zajištěna dostatečná rezerva pro rozšiřující se datové nároky
                   </p>
                 </div>
               </div>
             </section>
 
-            <section className="section">
-              <h1 className="is-size-2 title has-text-white">Seagate IronWolf 1TB</h1>
-              <div className="columns">
-                <div className="column is-size-5 has-text-white">
-                  <p>
-                    Pro ukládání her a nedůležitých dokumentů mi dostačuje tento 1TB. Tento disk je určený primárně pro NAS
-                    server, já ho však provozuji ve svém stolním počítači.
-                  </p>
-                </div>
-                <div className="column">
-                  <img src="/setup/hddns.webp" className="imgSetup" alt="HDD Samsung HD502IJ 500GB" />
-                </div>
-              </div>
-            </section>
+            {/*<section className="section">*/}
+            {/*  <h1 className="is-size-2 title has-text-white">Seagate IronWolf 1TB</h1>*/}
+            {/*  <div className="columns">*/}
+            {/*    <div className="column is-size-5 has-text-white">*/}
+            {/*      <p>*/}
+            {/*        Pro ukládání her a nedůležitých dokumentů mi dostačuje tento 1TB. Tento disk je určený primárně pro NAS*/}
+            {/*        server, já ho však provozuji ve svém stolním počítači.*/}
+            {/*      </p>*/}
+            {/*    </div>*/}
+            {/*    <div className="column">*/}
+            {/*      <img src="/setup/hddns.webp" className="imgSetup" alt="HDD Samsung HD502IJ 500GB" />*/}
+            {/*    </div>*/}
+            {/*  </div>*/}
+            {/*</section>*/}
 
             <section className="section">
               <h1 className="is-size-2 title has-text-white">Corsair CV550 - 550W</h1>
@@ -404,9 +403,9 @@ function App() {
                 </div>
                 <div className="column is-size-5 has-text-white">
                   <p>
-                    Tento zdroj zakoupil společně s i5-9400F, z důvodu nejistoty kvality předešlého zdroje, ze
-                    kterého jsem ani nevyčetl jeho výkon. Tento 550W zdroj s certifikací 80Plus Bronze bude
-                    bohatě dostačovat i na budoucí upgrady.
+                    Tento zdroj jsem zakoupil současně s procesorem i5-9400F, a to z důvodu pochybností o
+                    kvalitě předchozího zdroje, u kterého nebylo možné zjistit jeho původ.
+                    Tento 550W model s certifikací 80Plus Bronze mi poskytne dostatečnou rezervu i pro případné decentní upgrady.
                   </p>
                 </div>
               </div>
@@ -417,8 +416,9 @@ function App() {
               <div className="columns">
                 <div className="column is-size-5 has-text-white">
                   <p>
-                    Počítačová sestava musí mít taky nějaký průtok vzduchu. V počítači je tedy obsazen jeden
-                    ventilátor Endorfy Zephyr 120mm, který se stará o odvádění tepla ven ze skříně.
+                    Počítačová sestava musí zajišťovat adekvátní průtok vzduchu.
+                    V tomto systému je tedy nainstalován ventilátor Endorfy Zephyr 120mm,
+                    který se efektivně podílí na odvodu tepla ze skříně.
                   </p>
                 </div>
                 <div className="column">
